@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="JRT">
+<title>Hoja de Inscripcion</title>
+<link href="estilos.css" rel="stylesheet">
+</head>
+<h1>HOJA DE INSCRIPCIÓN</h1>
+<h2>EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h2>
+<body>
+<div class="cont1">
+<form id="Datos Personales">
+	<input type="button" id="boton" value="Datos Personales" /><br>
+	<label for="nombre" id="name">Nombre:</label><label for="apellidos" id="apellidos">Apellidos:</label><label for="text" id="DOC">DNI:</label><br>
+	<input type="text" id="nombre" name="requiered">
+	<input type="apellidos" id="apellidos" name="apellidos"required>
+	<input type="text" id="DNI" name="DNI" required><br>
+	
+	<label for="locNacimiento" id="ld">Localidad de Nacimiento:</label><label for="provincia" id="p"> Provincia:</label> <label for="fechaNac" id="fn">Fecha de Nacimiento:</label><br>
+	<input type="text" id="location"name="requiered">
+	<select name="provincia" id="provincia">
+       <option value="0"></option>
+       <option value="1">Granada</option>
+       <option value="2">Sevilla</option>
+       <option value="3">Cádiz</option>
+       <option value="4">Cordoba</option>
+       <option value="5">Jaen</option>
+       <option value="6">Huelva</option>
+       <option value="7">Almeria</option> 
+       </select>
+	<input type="date" id="fechaNac" name="fechaNac" required><br>
+	<label for="Direccion" id="dir">Dirección:</label><label for="CP" id="cp">Codigo Postal:</label><br>
+	<input type="text" id="Direccion" name="direccion" required>	
+	<input type="text" id="CP" name="CP" required>	
+</div>
+<div class="cont2">
+	<input type="button" id="boton" value="Forma de Acceso"/><br>
+	<input type="radio" id="directo" name="directo">
+	<label for="directo">Directo</label><br>
+	<input type="radio" id="bachillerato" name="bachillerato">
+	<label for="bachillerato">Bachillerato</label>
+	<label for="LogModalidad">logModalidad</label>
+	<input type="text" id="logModalidad" name="logModalidad"><br>
+	<input type="radio" id="Experimental" name="Experimental">
+	<label for="Experimental">Experimental</label><br>
+	<input type="radio" id="COU" name="COU">
+	<label for="COU">COU</label>
+	<label for="opcion">Opcion</label>
+	<input type="text" id="opcion" name="opcion"><br>
+	<input type="radio" id="fp2" name="fp2">
+	<label for="fp2">FP2</label><br>
+	<input type="radio" id="otros" name="otros">
+	<label for="otros">Otros</label>
+	<label for="especificar">Especifique</label>
+	<input type="text" id="especificar" name="especificar"><br>
+	<input type="radio" id="pl" name="pl">
+	<label r="pl">Prueba Libre</label>
+</div>
+<div class="cont3">
+	<input type="button" id="botond" value="Documentos Adjuntados"/><br>
+	<input type="checkbox" id="dni" name="dni">
+	<label for="dni">Fotocopia DNI</label>
+	<input type="checkbox" id="ca" name="ca">
+	<label for="ca">Certificado Academico</label><br>
+	<input type="checkbox" id="od" name="od">
+	<label for="od">Otros Documentos</label>
+	<label for="especifique">Especifique</label>
+	<input type="text" id="especifique" name="especifique">
+<div class="boton">
+<input type="submit" id="Enviar" name="Enviar Solicitud">	
+</div>
+</form>
+</div>
+</div>
+</body>
+</html>
